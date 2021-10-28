@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- AOS css file -->
+  <link rel="stylesheet" href="aos-master/dist/aos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <div>
+
+    <div class="innerBox">
+      <header class="header">
+        <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" class="titleImage">
+        <nav class="navigationBar" id="myTopnav">
+          <div class="searchbox ">
+            <div class="innerbox1">
+
+              <div class="innerbox1_location">
+                <!-- <i class="fas fa-map-marker-alt" style="font-size: 23px;color: #FF7E8B;"></i> -->
+                <!-- chumma -->
+              </div>
+              <input type="text" placeholder="kochi"
+                style="width:220px;font-family: Okra,Helvetica,sans-serif;font-size: 21px;padding-left: 40px;border-right: 0px;border-radius: 10px 0px 0px 10px;border: none;box-shadow: 1px 2px 5px 4px #f2f4f7;outline: none;opacity: 0.75">
+              <i class="fas fa-map-marker-alt"
+                style="font-size: 23px; color: #FF7E8B;position: absolute;align-self: center;padding-left: 11px;"></i>
+              <!-- <i class="fas fa-caret-down"
+                        style="position: absolute; align-self:center;margin: 235px;cursor: pointer;"></i> -->
+
+              <div class="innerbox2" style="display: flex;width: 500px;">
+                <input type="text" class="input2" placeholder="Search for a restaurant, cusine or a dish">
+                <i class="fas fa-search"
+                  style="align-self: center;position: absolute;margin-left: 13px;color: rgb(105, 105, 105);"></i>
+                <div class="innerbox2_searchicon">
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul class="nav_links">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign up</a></li>
+            
+          </ul>
+
+
+
+          <!-- <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fas fa-bars" style="color: black;"></i>-->
+        
+
+        <!-- ******slide-out-trial-starts****** -->
+
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <ul class="nav_links1">
+            <div class="sidenav-div">
+            <div>
+              <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign up</a></li>
+            </div>
+            <div style="margin-right: 75px;">
+              <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" class="titleImage">
+            </div>
+          </div>
+          </ul>
+        </div>
+        <span  class="open-nav" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+
+
+        <!-- ******slide-out-trial-ends****** -->
+      </nav> 
+
+        <script>
+          // function myFunction() {
+          //   var x = document.getElementById("myTopnav");
+          //   if (x.className === "navigationBar") {
+          //     x.className += " responsive";
+          //     // document.write(5+6);
+          //   } else {
+          //     x.className = "navigationBar";
+          //   }
+          // }
+
+          function openNav() {
+            document.getElementById("mySidenav").style.width = "100%";
+          }
+
+          function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+          }
+        </script>
+
+      </header>
+    </div>
+
+
+
+
+
+
+
+    <!-- home/india/section-starts -->
+    <div class="homesection">
+      <div class="homesectiondiv1">
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li> /</li>
+          <li> <a href="#">Indian</a></li>
+          <li> /</li>
+          <li> <a href="#">Kochi Restaurants</a></li>
+        </ul>
+      </div>
+    </div>
+
+
+    <div>
+      <div class="hidden-home">
+        <ul>
+          <p>Home</p>
+          <hr>
+          <p>Indian</p>
+          <hr>
+          <p>Kochi restaurants</p>
+        </ul>
+      </div>
+    </div>
+    <!-- home/india/section-ends-->
+
+    <!-- *********************************** delivery/dine-out section starts*************************** -->
+    <section class="scroll">
+
+      <div class="deliverysection">
+        <div class="deliverysection-div1">
+          <div class="deliverysection-div2">
+            <img src="images/c0bb85d3a6347b2ec070a8db694588261616149578.png">
+          </div>
+          <h3>Delivery</h3>
+          <div class="deliverysection-div2">
+            <img src="images/78d25215ff4c1299578ed36eefd5f39d1616149985.png">
+          </div>
+          <h3>Dining Out</h3>
+          <div class="deliverysection-div2">
+            <img src="images/01040767e4943c398e38e3592bb1ba8a1616150142.png" alt="">
+          </div>
+          <h3>Nightlife</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- *********************************** delivery/dine-out section ends*************************** -->
+
+
+    <!-- small_boxes-starts -->
+    <div>
+      <div class="smallboxes">
+        <div class="smallboxes-div-1">
+          <div class="smallboxes-section-1">
+            <button>Filters</button>
+            <button>Pure Veg</button>
+            <button>Delivery Time</button>
+          </div>
+
+          <div class="smallboxes-section-2">
+            <button>Rating</button>
+            <button>Great Offers</button>
+            <button>cusines</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- small_boxes-ends -->
+
+    <div class="footer-inner-space"></div>
+
+
+    <!-- *********************************top-caurosal-starts-trial***************** -->
+
+    <div style="background-color: whitesmoke;">
+      <div class="firstorder">
+
+        <h3 class="firstorder-h3">Eat what makes you happy</h3>
+
+      </div>
+
+    </div>
+
+    <div id="carouselExampleControls" class="carousel" data-bs-ride="carousel">
+      <div class="carousel-inner main-card">
+        <div class="carousel-item active">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/pizza2.png" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Pizza</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/Burger.png" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/mandi2.jpg" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Arabian</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/Meal.jpg" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Kerala Special</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/cake.png" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Cakes</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/palappam.jpg" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Appam</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item main-card">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/mandi2.jpg" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Arabian</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/Meal.jpg" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Kerala Special</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card card-top">
+            <div class="img-wrapper"><img src="images/Burger.png" class="d-block w-100" alt="..."> </div>
+            <div class="card-body">
+              <h5 class="card-title">Burger</h5>
+              <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                          card's content.</p> -->
+              <!-- <a href="#" class="btn btn-primary">Go somewhere</a> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev arrow1" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+      <button class="carousel-control-next arrow2" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+    </div>
+
+    <!-- *********************************top-caurosal-ends-trial*****************  -->
+
+    <div class="space-popular">
+
+    </div>
+
+    <!-- ***********************************main-food-cards-starts**************************************************** -->
+
+    <div class="delivery_div">
+      <h1>Delivery Restaurants in Kochi</h1>
+    </div>
+
+
+
+    <section class="body-food-cards">
+      <div class="container  my-container ">
+        <div class="row justify-content-around mt-2 my-row">
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/2137031075da5e1625f5e0ebc54fb78f_o2_featured_v2(1).jpeg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Mehfil Biriyani</h4>
+                  <button class="button">3.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian,Kerala..</p>
+                  <p>200 for one</p>
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/alfamm.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Shawarma Daddy</h4>
+                  <button class="button">3.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian,Kerala..</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/pizza.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Pizza Hut</h4>
+                  <button class="button">3.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian,Kerala..</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around mt-2 my-row">
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/putt.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Ceylon Bake House</h4>
+                  <button class="button">3.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian,Kerala..</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/shawarma.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Tellicherry Kitchen</h4>
+                  <button class="button">3.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian,Kerala..</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/Fish CUrry.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Nambiar's Green Pepper</h4>
+                  <button class="button">4.2*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>Kerala, North..</p>
+                  <p>100 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row justify-content-around mt-2 my-row">
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/alfam.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Pathirakozhi</h4>
+                  <button class="button">3.9*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>Arabian,Kerala..</p>
+                  <p>250 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/small.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Ifthar</h4>
+                  <button class="button">3.4*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>Biryani, South..</p>
+                  <p>250 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/platter.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Arippa</h4>
+                  <button class="button">4.0*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian, North..</p>
+                  <p>250 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="row justify-content-around mt-2 my-row">
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/pic.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">K.R Bakes</h4>
+                  <button class="button">3.8*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>South Indian, Chinese.</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/friedrice.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Chopstix</h4>
+                  <button class="button">4.1*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>Chinese, Thai</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-12  my-col">
+            <div class="card text-center food-img-div">
+              <img src="images/biriyani2.jpg" alt="">
+              <div class="card-body justify-content-start">
+                <div class="text-center card-main-title">
+                  <h4 class="card-title ">Hyderabadi Dum Pot</h4>
+                  <button class="button">3.6*</button>
+                </div>
+                <div class="card-main-title">
+                  <p>Biriyani</p>
+                  <p>200 for one</p>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+        <!-- <div class="row  mt-2 justify-content-between my-row">
+                <div class="col-lg-3 col-md-3 col-3  my-col">
+                    row-2-col-1
+                </div>
+                <div class="col-lg3 col-md-3 col-3  my-col">
+                    row-2-col-2
+                </div>
+                <div class="col-lg-3 col-md-3 col-3  my-col">
+                    row-2-col-3
+                </div>
+            </div> -->
+
+      </div>
+
+    </section>
+
+
+    <!-- ***********************************main-food-cards-ends**************************************************** -->
+
+    <!-- **********************************end-of-page-section************************************* -->
+
+    <div class="end-of-page">
+      <h4>End of search results</h4>
+      <img class="end-of-page-img"
+        src="https://b.zmtcdn.com/web/assets/search/6d548ba48f0e4e4b46c19ad4b15a3f011615379209.jpeg" alt="">
+    </div>
+
+    <div class="space"></div>
+    <!-- **********************************end-of-page-section************************************* -->
+
+    <!-- ******************explore-near-by-starts****************************** -->
+
+
+    <div class="explore-near-by">
+      <p class="explore-near-by1">Explore other options for you here</p>
+      <p class="explore-near-by2"> Popular cuisines near me</p>
+      <div>
+        <ul>
+          <li>Arabian food near me</li>
+          <li>Beverages food near me</li>
+          <li> Biryani food near me</li>
+          <li>Burger food near me</li>
+          <li>Cafe food near me</li>
+          <li>Chinese food near me</li>
+          <li>Continental food near me</li>
+          <li>Desserts food near me</li>
+          <li>Ice Cream food near me</li>
+          <li>Juices food near me</li>
+          <li>Kerala food near me</li>
+          <li>Lebanese food near me</li>
+          <li>North Indian food near me</li>
+          <li>Pizza food near me</li>
+          <li>Sandwich food near me</li>
+          <li>Seafood food near me</li>
+          <li>Shake food near me</li>
+          <li>South Indian food near me</li>
+          <li>Street food near me</li>
+        </ul>
+      </div>
+    </div>
+    <!-- ******************explore-near-by-ends****************************** -->
+
+    <div class="space-popular">
+
+    </div>
+    <!-- /* ********popular-restaurants-nearme-starts******* */ -->
+
+    <div class="Popular-near-by">
+      <p class="Popular-near-by2">Popular restaurant types near me</p>
+
+      <div>
+        <ul>
+          <li>Bakeries near me</li>
+          <li>Bars near me</li>
+          <li>Beverage Shops near me</li>
+          <li>Cafés near me</li>
+          <li>Casual Dining near me</li>
+          <li> Confectioneries near me</li>
+          <li>Dessert Parlors near me</li>
+          <li>Dhabas near me</li>
+          <li>Fine Dining near me</li>
+          <li>Food Courts near me</li>
+          <li>Food Trucks near me</li>
+          <li>Kiosks near me</li>
+          <li>Lounges near me</li>
+          <li>Meat Shops near me </li>
+          <li>Quick Bites near me</li>
+          <li>Sweet Shops near me</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+    <!-- /* ********popular-restaurants-nearme-ends******* */ -->
+
+
+    <div class="space"></div>
+    <!-- *********************** restaurants start********************** -->
+
+    <div class="top-restaurant-chains">
+      <p class="explore-near-by1">Top Restaurant Chains</p>
+
+      <div>
+        <ul>
+          <li>Burger King</li>
+          <li>KFC</li>
+          <li> McDonald's</li>
+          <li>Pizza Hut</li>
+          <li>WOW! Momo</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- *********************** restaurants ends********************** -->
+
+    <div class="space"></div>
+
+    <!-- ****************************cities-we-deliver-to-starts******************** -->
+
+    <div class="cities-we-deliver-to">
+      <p class="explore-near-by1">Cities We Deliver To</p>
+
+      <div class="cities-we-deliver-to-div">
+        <ul>
+          <li>Delhi NCR</li>
+          <li>Kolkata</li>
+          <li>Mumbai</li>
+          <li>Bengaluru</li>
+          <li>Pune</li>
+          <li>Hyderabad</li>
+          <li>Chennai</li>
+          <li>Lucknow</li>
+          <li>Kochi</li>
+          <li>Jaipur</li>
+          <li>Ahmedabad</li>
+          <li>Chandigarh</li>
+          <li>Goa</li>
+          <li>Indore</li>
+          <li>Nashik</li>
+          <li>Ooty</li>
+          <li>Shimla</li>
+          <li>Ludhiana</li>
+          <li>Guwahati</li>
+          <li>Amritsar</li>
+          <li>Kanpur</li>
+          <li>Allahabad</li>
+          <li>Bhopal</li>
+          <li>Visakhapatnam</li>
+          <li>Bhubaneswar</li>
+          <li>Coimbatore</li>
+          <li>Mangalore</li>
+          <li>Vadodara</li>
+          <li>Nagpur</li>
+          <li>Agra</li>
+          <li>Dehradun</li>
+          <li>Mysore</li>
+          <li>Puducherry</li>
+          <li>Surat</li>
+          <li>Varanasi</li>
+          <li>Patna</li>
+          <li>Udaipur</li>
+          <li>Cuttack</li>
+          <li>Haridwar</li>
+          <li>Leh</li>
+          <li>Pshkar</li>
+          <li>Rajkot</li>
+          <li>Madurai</li>
+          <li>Kozhikod</li>
+          <li>Alappuzha</li>
+          <li>Thrissur</li>
+          <li>Manipal</li>
+          <li>Vijayavada</li>
+          <li>Jodpur</li>
+          <li>Kota</li>
+          <li>Ajmeer</li>
+          <li>Mussorie</li>
+          <li>Rishikesh</li>
+          <li>Jalandhar</li>
+          <li>Jammu</li>
+          <li>Manali</li>
+          <li>Dharmashala</li>
+          <li>Raipur</li>
+          <li>Gorakhpur</li>
+          <li>Palakkad</li>
+
+        </ul>
+      </div>
+    </div>
+    <!-- ****************************cities-we-deliver-to-ends******************** -->
+    <div class="space"></div>
+
+    <!-- ************************************* footer-starts******************************* -->
+
+
+    <footer>
+      <div class="footer-main">
+        <div>
+          <div class="footer-inner">
+
+            <img class="footer-image" src="images/zomato.png">
+            <button class="footer-inner-button1">India</button>
+            <button class="footer-inner-button2">English</button>
+
+          </div>
+        </div>
+        <div class="footer-inner-space"></div>
+
+        <div class="footer-inner-titles">
+          <div class="footer-inner-container">
+            <div>
+              <h6>COMPANY</h6>
+              <p>Who We Are</p>
+              <p>Blog</p>
+              <p>Careers</p>
+              <p>Report Fraud</p>
+              <p>Contact</p>
+              <p>Investor Relations</p>
+            </div>
+            <div>
+              <h6>FOR FOODIES</h6>
+              <p>Code of Conduct</p>
+              <p>Community</p>
+              <p>Blogger Help</p>
+              <p>Mobile Apps</p>
+            </div>
+            <div>
+              <h6>FOR RESTAURANTS</h6>
+              <p>Add restaurant</p>
+            </div>
+            <div>
+              <h6>FOR YOU</h6>
+              <p>Privacy</p>
+              <p>Terms</p>
+              <p>Security</p>
+              <p>Sitemap</p>
+            </div>
+            <div class="footer-inner-small-titles">
+              <h6>SOCIAL LINKS</h6>
+              <p><i class="fab fa-facebook footer-icons" style="padding: 1px;
+                      font-size: 22px;"></i><i class="fab fa-twitter" style="padding: 10px;
+                      font-size: 22px;"></i><i class="fab fa-instagram-square"
+                  style="padding: 7px;font-size: 22px;"></i></p>
+
+              <p><img src="images/googleplay.png" class="footer-icons"></p>
+              <p><img src="images/appstore.png" class="footer-icons"></p>
+
+            </div>
+          </div>
+          <div>
+            <hr class="horizontal-line">
+          </div>
+          <div class="copyright">
+            <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and
+              Content
+              Policies. All trademarks are properties of their respective owners. 2008-2021 © Zomato™ Ltd. All rights
+              reserved.</p>
+          </div>
+        </div>
+
+      </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- ************************************* footer-ends******************************* -->
+
+    <a href="#" onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-arrow-up"></i></a>
+
+
+
+    <!-- js and ajax scripts -->
+    <!-- AOS javascript -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script>
+      //Get the button:
+      mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction()
+      };
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+      }
+
+
+      // $(window).scroll(function(){
+
+      //   if($(window).scrollTop() + $(window).height() == $(document).height()) {
+      //     alert("Bottom Reached");
+      //     window.scrollTo(0, 0);
+      //   }
+      // })
+    </script>
+
+
+  </div>
+</body>
+
+</html>
