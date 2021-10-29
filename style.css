@@ -416,7 +416,7 @@ header {
 
 
 .my-col{
-    border: 0.063rem solid black;
+    /* border: 0.063rem solid black; */
     /* column-gap: 2rem; */
 }
 
