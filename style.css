@@ -410,7 +410,8 @@ header {
 .my-row{
     /* height: 300px; */
     /* border: none; */
-    column-gap: 0rem;
+    /* row-gap: 2rem; */
+    
    
 }
 
@@ -441,7 +442,13 @@ header {
     justify-content: space-between;
 }
 
+@media only screen and (max-width:766px){
 
+    .food-img-div{
+
+        margin-top: 30px !important;
+    }
+}
 /* ********************* delivery/dineout section starts************** */
 
 .scroll{
@@ -1035,7 +1042,7 @@ margin-left: 20px;
 
     .cities-we-deliver-to li {
         /* margin: 10px; */
-        font-size: 12px;
+        font-size: 9px;
         font-weight: 300;
         /* text-decoration: rgb(54, 54, 54); */
         /* opacity: 0.6; */
